@@ -1,0 +1,3 @@
+recursive-include meari/data *
+prune **/__pycache__
+global-exclude *.c *.cpp *.h *.hpp *.pyc
