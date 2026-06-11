@@ -5,8 +5,6 @@
 
 ----
 
-This code models the ***reverberating surface***, such as the broad line region or the dusty torus, of AGNs to generate the transfer function of the responding light curves, i.e., broad emission lines or optical-infrared continua. Using and performs computes posterior function based on the light curves (either by sequential Bayesian or PRH-Q). The reverberating surface is modeled with triangular meshes as various geometry. Currently, the only adopted model is the thick disk model by [Goad et al. 2012](https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.3086G), which can also be used to model thin disks.
- 
 Uses 
  - Cython
  - OpenBLAS: 
